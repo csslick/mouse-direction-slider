@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.slider {
+  width: 600px;
+  height: 500px;
+  background: #ccc;
+  margin: auto;
+  position: relative;
+}
+
+.sliders {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  transition: 3s;
+}
+
+.sliders > li {
+  width: 120px;
+  height: 200px;
+  outline: 2px solid #333;
+  background: pink;
+  margin-right: 10px;
+}
